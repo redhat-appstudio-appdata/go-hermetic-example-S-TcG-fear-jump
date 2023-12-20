@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: go-hermetic-example
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/brianwcook-tenant/go-hermetic-example/go-hermetic-example@sha256:c9f1b715489f579b3580949304627c2bd8ad87df6873444cfe4100afdfac7af8
+      - image: quay.io/redhat-user-workloads/brianwcook-tenant/go-hermetic-example/go-hermetic-example@sha256:2f48a9153c17ca47ac2ced2a751bd5222f553f7d4d53520580bd84763c950f31
         name: my-go
         ports:
         - containerPort: 8081
