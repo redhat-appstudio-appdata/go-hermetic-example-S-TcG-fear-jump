@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/brianwcook-tenant/go-hermetic-example/go-hermetic-example@sha256:2f48a9153c17ca47ac2ced2a751bd5222f553f7d4d53520580bd84763c950f31
+      - image: quay.io/redhat-user-workloads/brianwcook-tenant/go-hermetic-example/go-hermetic-example@sha256:791c6a9a45ec0d2f7b8f1256096ba1ee32c0257af6d3e97ee0bef14673d5b2bb
         name: my-go
         resources: {}
 status: {}
