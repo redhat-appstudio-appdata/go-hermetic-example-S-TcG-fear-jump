@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: go-hermetic-example
     app.kubernetes.io/part-of: go-hermetic-example
-  name: go-hermetic-examplehocl
+  name: go-hermetic-exampledkf2
 spec:
   path: /
   port:

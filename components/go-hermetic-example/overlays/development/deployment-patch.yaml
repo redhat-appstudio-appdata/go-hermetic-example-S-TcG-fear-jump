@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: go-hermetic-example
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/brianwcook-tenant/go-hermetic-example/go-hermetic-example@sha256:63872462d37bfac66ccbfba5d66aed045b3dfb4083668a51de00f9fb728a7987
+      - image: quay.io/redhat-user-workloads/brianwcook-tenant/go-hermetic-example/go-hermetic-example@sha256:1a492b1fb98388efb3b586da97e2dcc3a3650177214e55e7d7117c1a6d25dd86
         name: my-go
         resources: {}
 status: {}
